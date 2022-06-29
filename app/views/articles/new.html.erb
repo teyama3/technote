@@ -1,0 +1,7 @@
+<%= form_with model: @article do |fc| %>
+  <%= fc.label :title %>
+  <%= fc.text_field :title %>
+  <%= fc.label :body %>
+  <%= fc.text_area :body %>
+  <%= fc.submit "新規投稿" %>
+<% end %>
